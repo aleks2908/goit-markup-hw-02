@@ -12,25 +12,148 @@
 
 /* фон #F5F4FA */
 
+/* фон героя #2F303A */
+
 /* лого Студио #000000; */
+
+:root {
+  --primery-text-color: #212121;
+  --secondary--text-color: #757575;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+
+  --primery-bg-color: #ffffff;
+  --secondary-bg-color: ##2f303a;
+}
 
 body {
   background-color: #ffffff;
   color: #212121;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .logo {
   color: #2196f3;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo span {
   color: #000000;
 }
 
-.list {
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+  letter-spacing: 0.06em;
+}
+
+.hero button {
+  letter-spacing: 0.06em;
+}
+
+ul {
   list-style: none;
 }
 
-/* .site-nav a {
+.site-nav a {
+  text-decoration: none;
+  color: #212121;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
   color: #2196f3;
-} */
+}
+
+.site-nav a.current {
+  color: #2196f3;
+}
+
+.auth-nav a {
+  text-decoration: none;
+  color: #757575;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: #2196f3;
+}
+
+.team-bg {
+  background-color: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+.footer a {
+  text-decoration: none;
+}
+
+.footer .logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+.footer .logo span {
+  color: #ffffff;
+}
+
+.footer .adress {
+  color: #ffffff;
+}
+
+.footer .adress:hover,
+.footer .adress:focus,
+.footer .contacts:hover,
+.footer .contacts:focus {
+  color: #2196f3;
+}
+
+.footer .contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+}
+/* кнопка */
+.button.active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button.passive {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+/* Портфоліо */
+
+.portfolio-list a {
+  text-decoration: none;
+}
+
+.button.passive:hover,
+.button.passive:focus,
+.button.active:hover,
+.button.active:focus {
+  color: #2196f3;
+  background-color: #ffffff;
+}
+
+.project-list h2 {
+  color: #212121;
+}
+
+.project-list p {
+  color: #757575;
+}
