@@ -33,6 +33,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Хедер */
 .logo {
   color: var(--accent-color);
   text-decoration: none;
@@ -44,28 +45,6 @@ body {
 
 .logo span {
   color: #000000;
-}
-
-.hero {
-  background-color: var(--secondary-bg-color);
-}
-
-.hero-title {
-  color: var(--primery-bg-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.hero button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  letter-spacing: 0.06em;
 }
 
 ul {
@@ -104,27 +83,50 @@ ul {
   color: var(--accent-color);
 }
 
+/* Герой */
+
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  color: var(--primery-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Наші переваги */
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* letter-spacing: 0.03em; */
 }
 
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  /* letter-spacing: 0.03em; */
-  /* text-transform: uppercase; */
 }
 
 .feature-list .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
+
+/* Наша команда */
 
 .team-bg {
   background-color: #f5f4fa;
@@ -134,14 +136,13 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .team-list p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Футер */
@@ -192,7 +193,9 @@ ul {
   background-color: var(--primery-bg-color);
 }
 
+/*  */
 /* Портфоліо */
+/*  */
 
 .portfolio-list a {
   text-decoration: none;
@@ -202,6 +205,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -209,14 +213,6 @@ ul {
   color: var(--accent-color);
   background-color: var(--primery-bg-color);
 }
-
-/* .button.passive:hover,
-.button.passive:focus,
-.button.active:hover,
-.button.active:focus {
-  color: var(--accent-color);
-  background-color: var(--primery-bg-color);
-} */
 
 .project-list h2 {
   color: var(--primery-text-color);
@@ -228,12 +224,6 @@ ul {
 
 .project-list p {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
-
-/* кнопки не наслыдують шрифти
-.button {
-  font-family: inherit;
-} */
