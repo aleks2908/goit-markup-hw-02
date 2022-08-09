@@ -1,21 +1,3 @@
-/* набиваю палітру кольорів*/
-
-/* основний колір H2-3   #212121  */
-
-/* додатковий колір абзаци, посади, контакти в хедері #757575 */
-
-/* контакти в футері rgba(255, 255, 255, 0.6); */
-
-/* білий #FFFFFF */
-
-/* активний #2196F3 */
-
-/* фон #F5F4FA */
-
-/* фон героя #2F303A */
-
-/* лого Студио #000000; */
-
 :root {
   --primery-text-color: #212121;
   --secondary-text-color: #757575;
@@ -34,6 +16,7 @@ body {
 }
 
 /* Хедер */
+
 .logo {
   color: var(--accent-color);
   text-decoration: none;
@@ -106,6 +89,22 @@ ul {
   letter-spacing: 0.06em;
 }
 
+/* кнопка */
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.button.active {
+  color: var(--primery-bg-color);
+  background-color: var(--accent-color);
+}
+
+.button.passive {
+  color: var(--primery-text-color);
+  background-color: var(--primery-bg-color);
+}
+
 /* Наші переваги */
 
 .section-title {
@@ -136,13 +135,11 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* text-align: center; */
 }
 
 .team-list p {
   font-size: 16px;
   line-height: 1.19;
-  /* text-align: center; */
 }
 
 /* Футер */
@@ -178,24 +175,7 @@ ul {
   color: var(--footer-contacts-color);
 }
 
-/* кнопка */
-.button {
-  font-family: inherit;
-  cursor: pointer;
-}
-.button.active {
-  color: var(--primery-bg-color);
-  background-color: var(--accent-color);
-}
-
-.button.passive {
-  color: var(--primery-text-color);
-  background-color: var(--primery-bg-color);
-}
-
-/*  */
 /* Портфоліо */
-/*  */
 
 .portfolio-list a {
   text-decoration: none;
@@ -227,3 +207,5 @@ ul {
   font-size: 16px;
   line-height: 1.88;
 }
+
+/* «С8» Вказані альтернативні варіанти шрифту і тип сімейства (без зарубок) в кінці переліку font-family в елемента <body>. */
