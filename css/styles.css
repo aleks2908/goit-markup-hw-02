@@ -1,3 +1,23 @@
+/* ===== ОБНУЛЕННЯ ===== */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/* ===== /ОБНУЛЕННЯ ===== */
+
 :root {
   --primery-text-color: #212121;
   --secondary-text-color: #757575;
@@ -19,11 +39,9 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Хедер */
-
+/* ========== ХЕДЕР =========== */
 .logo {
   color: var(--accent-color);
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -34,12 +52,7 @@ body {
   color: var(--logo-text-black);
 }
 
-ul {
-  list-style: none;
-}
-
 .site-nav a {
-  text-decoration: none;
   color: var(--primery-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -56,7 +69,6 @@ ul {
 }
 
 .auth-nav a {
-  text-decoration: none;
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -68,8 +80,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* Герой */
-
+/* ========== ГЕРОЙ =========== */
 .hero {
   background-color: var(--secondary-bg-color);
 }
@@ -97,12 +108,7 @@ ul {
   background-color: var(--primery-bg-color);
 }
 
-/* кнопка */
-
-.button {
-  font-family: inherit;
-  cursor: pointer;
-}
+/* ========== КНОПКА =========== */
 .button.active {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
@@ -113,8 +119,7 @@ ul {
   background-color: var(--primery-bg-color);
 }
 
-/* Наші переваги */
-
+/* ========== НАШІ ПЕРЕВАГИ =========== */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -143,8 +148,7 @@ ul {
   color: var(--secondary-text-color);
 }
 
-/* Наша команда */
-
+/* ========== НАША КОМАНДА =========== */
 .team-bg {
   background-color: var(--taam-bg-color);
 }
@@ -161,21 +165,18 @@ ul {
   color: var(--secondary-text-color);
 }
 
-/* Футер */
-
+/* ========== ФУТЕР =========== */
 .footer {
   background-color: var(--secondary-bg-color);
   font-weight: 400;
   line-height: 1.71;
 }
 .footer a {
-  text-decoration: none;
   font-style: normal;
 }
 
 .footer .logo {
   color: var(--accent-color);
-  text-decoration: none;
 }
 .footer .logo span,
 .footer .adress {
@@ -191,12 +192,9 @@ ul {
   color: var(--footer-contacts-color);
 }
 
-/* Портфоліо */
-
-.portfolio-list a {
-  text-decoration: none;
-}
-
+/* ================================ */
+/* ========== ПОРТФОЛІО =========== */
+/* ================================ */
 .button-filter button {
   font-weight: 500;
   font-size: 16px;
