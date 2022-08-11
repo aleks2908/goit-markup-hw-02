@@ -6,12 +6,16 @@
 
   --primery-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+
+  --logo-text-black: #000000;
+  --taam-bg-color: #f5f4fa;
 }
 
 body {
   background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -27,7 +31,7 @@ body {
 }
 
 .logo span {
-  color: #000000;
+  color: var(--logo-text-black);
 }
 
 ul {
@@ -38,7 +42,6 @@ ul {
   text-decoration: none;
   color: var(--primery-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -56,7 +59,6 @@ ul {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -89,6 +91,12 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.hero button:hover,
+.hero button:focus {
+  color: var(--accent-color);
+  background-color: var(--primery-bg-color);
+}
+
 /* кнопка */
 
 .button {
@@ -107,28 +115,38 @@ ul {
 
 /* Наші переваги */
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
 .feature-list .title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
 .feature-list .text {
-  font-size: 14px;
   line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 /* Наша команда */
 
 .team-bg {
-  background-color: #f5f4fa;
+  background-color: var(--taam-bg-color);
 }
 
 .team-list .title {
@@ -140,6 +158,7 @@ ul {
 .team-list p {
   font-size: 16px;
   line-height: 1.19;
+  color: var(--secondary-text-color);
 }
 
 /* Футер */
@@ -147,7 +166,6 @@ ul {
 .footer {
   background-color: var(--secondary-bg-color);
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 .footer a {
@@ -164,8 +182,6 @@ ul {
   color: var(--primery-bg-color);
 }
 
-.footer .adress:hover,
-.footer .adress:focus,
 .footer .contacts:hover,
 .footer .contacts:focus {
   color: var(--accent-color);
@@ -190,13 +206,12 @@ ul {
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
-  background-color: var(--primery-bg-color);
+  color: var(--primery-bg-color);
+  background-color: var(--accent-color);
 }
 
 .project-list h2 {
   color: var(--primery-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -207,5 +222,3 @@ ul {
   font-size: 16px;
   line-height: 1.88;
 }
-
-/* «С8» Вказані альтернативні варіанти шрифту і тип сімейства (без зарубок) в кінці переліку font-family в елемента <body>. */
